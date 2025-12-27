@@ -1,5 +1,3 @@
----
-
 # 📈 Telco Customer Churn Prediction
 
 **Dự báo Khách hàng Rời bỏ Dịch vụ Viễn thông**
@@ -14,8 +12,6 @@ Bài toán churn prediction có ý nghĩa thực tiễn cao, giúp doanh nghiệ
 * Chủ động triển khai các chiến lược giữ chân khách hàng
 * Tối ưu chi phí marketing và nâng cao giá trị vòng đời khách hàng (Customer Lifetime Value)
 
----
-
 ## 🎯 Mục tiêu Dự án
 
 * Phân tích hành vi và đặc điểm của khách hàng viễn thông
@@ -23,8 +19,6 @@ Bài toán churn prediction có ý nghĩa thực tiễn cao, giúp doanh nghiệ
 * Tiền xử lý và chuẩn hóa dữ liệu theo quy trình Machine Learning chuẩn
 * Xây dựng và so sánh nhiều mô hình dự báo Churn
 * Lựa chọn mô hình tối ưu và triển khai dự báo cho khách hàng mới
-
----
 
 ## 📂 Cấu trúc Thư mục Dự án
 
@@ -70,8 +64,6 @@ Project_Cuoi_Ki/
     └── Danh sách thư viện cần thiết
 ```
 
----
-
 ## ⚙️ Hướng dẫn Cài đặt & Chạy Dự án
 
 ### 1️⃣ Cài đặt môi trường
@@ -81,8 +73,6 @@ Khuyến nghị sử dụng **Anaconda** hoặc **Virtual Environment** để đ
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ### 2️⃣ Quy trình Thực hiện
 
@@ -118,15 +108,11 @@ pip install -r requirements.txt
 
    * Sử dụng mô hình tối ưu để dự báo churn cho khách hàng mới
 
----
-
 ## 🧪 Các Thuật toán Được Sử dụng
 
 * Logistic Regression
 * Random Forest Classifier
 * XGBoost Classifier
-
----
 
 ## 🛠️ Kỹ thuật & Phương pháp Nổi bật
 
@@ -134,8 +120,6 @@ pip install -r requirements.txt
 * **RandomizedSearchCV** tối ưu siêu tham số
 * **Threshold Tuning** để cải thiện F1-Score
 * Đánh giá bằng các metric: Precision, Recall, F1-Score
-
----
 
 ## 📊 Kết quả Nổi bật
 
@@ -147,10 +131,6 @@ pip install -r requirements.txt
   * Cân bằng tốt giữa Precision và Recall
 * Mô hình phù hợp cho các bài toán churn prediction trong thực tế
 
----
-
 ## 📌 Kết luận
 
 Dự án đã xây dựng thành công một **pipeline Machine Learning hoàn chỉnh**, từ phân tích dữ liệu, tiền xử lý, huấn luyện mô hình đến triển khai dự báo. Kết quả cho thấy **XGBoost kết hợp SMOTE và Threshold Tuning** là lựa chọn hiệu quả cho bài toán dự báo khách hàng rời bỏ dịch vụ viễn thông.
-
----
